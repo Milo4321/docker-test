@@ -1,3 +1,5 @@
 .idea
 *.iml
-jee/targt/
+jee-app/ear-module/target
+jee-app/ejb-module/target
+jee-app/war-module/target
