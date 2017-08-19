@@ -2,9 +2,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Welcome from jsp!</title>
 </head>
 <body>
-<p>test page from jsp</p>
+<p>Welcome from jsp!</p>
 </body>
 </html>

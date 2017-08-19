@@ -10,7 +10,6 @@ services:
     volumes:
       - /opt/data:/var/lib/mysql
 
-
   jboss:
     build: ./jboss
     ports:
@@ -19,7 +18,7 @@ services:
     networks:
       - infoshare_network
     volumes:
-      - ../ear-module/target/ear-module-1.0-SNAPSHOT.ear:/opt/jboss/wildfly/standalone/deployments/ear-module-1.0-SNAPSHOT.ear
+      - ../jee-app/ear-module/target/ear-module-1.0-SNAPSHOT.ear:/opt/jboss/wildfly/standalone/deployments/ear-module-1.0-SNAPSHOT.ear
 
 networks:
   infoshare_network:
